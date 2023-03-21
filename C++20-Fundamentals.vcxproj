@@ -24,6 +24,7 @@
     <ProjectGuid>{0fa7bb92-4fb3-4ee1-afe5-8a08daf23b56}</ProjectGuid>
     <RootNamespace>C20Fundamentals</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>cpp-sandbox</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -13,6 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Functions">
+      <UniqueIdentifier>{040db9b6-20d9-4ea1-9631-a110a09f2216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Handling Errors">
+      <UniqueIdentifier>{041f09ee-28e2-4388-8283-444fd729470a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Handling Errors\Codes">
+      <UniqueIdentifier>{8c38ef09-d8f7-47ff-9670-03eb8aa12e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Handling Errors\Optional">
+      <UniqueIdentifier>{ee670281-0bb1-4da4-8fc4-376d44c86f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Handling Errors\Exceptions">
+      <UniqueIdentifier>{82e737cb-0e58-417e-8f5e-63e3fef6f694}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C++20-Fundamentals.cpp">
@@ -36,6 +51,36 @@
     <ClCompile Include="Tweeter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ConditionalStatements.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Source Files\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeFunctions.cpp">
+      <Filter>Source Files\Handling Errors\Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnCode.cpp">
+      <Filter>Source Files\Handling Errors\Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionalFunctions.cpp">
+      <Filter>Source Files\Handling Errors\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnOptional.cpp">
+      <Filter>Source Files\Handling Errors\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionalFunctions.h">
+      <Filter>Source Files\Handling Errors\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionFunctions.cpp">
+      <Filter>Source Files\Handling Errors\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnException.cpp">
+      <Filter>Source Files\Handling Errors\Exceptions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h">
@@ -46,6 +91,15 @@
     </ClInclude>
     <ClInclude Include="Tweeter.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeFunctions.h">
+      <Filter>Source Files\Handling Errors\Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionFunctions.h">
+      <Filter>Source Files\Handling Errors\Exceptions</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

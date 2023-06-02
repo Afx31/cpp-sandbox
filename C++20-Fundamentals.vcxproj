@@ -105,6 +105,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -131,15 +132,28 @@
     <ClCompile Include="BaseVariableExamples.cpp" />
     <ClCompile Include="C++20-Fundamentals.cpp" />
     <ClCompile Include="ClassesAndObjects.cpp" />
+    <ClCompile Include="ConditionalStatements.cpp" />
     <ClCompile Include="Enums.cpp" />
+    <ClCompile Include="CodeFunctions.cpp" />
+    <ClCompile Include="ExceptionFunctions.cpp" />
+    <ClCompile Include="OptionalFunctions.cpp" />
+    <ClCompile Include="OptionalFunctions.h" />
+    <ClCompile Include="Functions.cpp" />
     <ClCompile Include="Hello.cpp" />
     <ClCompile Include="Person.cpp" />
+    <ClCompile Include="ReturnCode.cpp" />
+    <ClCompile Include="ReturnException.cpp" />
+    <ClCompile Include="ReturnOptional.cpp" />
     <ClCompile Include="Tweeter.cpp" />
+    <ClCompile Include="Utility.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CodeFunctions.h" />
+    <ClInclude Include="ExceptionFunctions.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Status.h" />
     <ClInclude Include="Tweeter.h" />
+    <ClInclude Include="Utility.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
